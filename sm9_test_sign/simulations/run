@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/sm9_test_sign -n .:../src $*
+# for shared lib, use: opp_run -l ../src/sm9_test_sign -n .:../src $*
