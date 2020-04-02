@@ -1,0 +1,1 @@
+LIBS += -L/home/veins/Downloads/GmSSL-master -Wl,-Bstatic -lcrypto -lssl -Wl,-Bdynamic
